@@ -1,0 +1,6 @@
+{
+  "name": "Mr. Mahi Unisex Salon",
+  "description": "Premium luxury unisex boutique salon providing precision haircuts, expert styling, coloring, and therapeutic skin treatment services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
