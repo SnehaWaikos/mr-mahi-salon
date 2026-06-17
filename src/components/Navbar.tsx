@@ -72,13 +72,15 @@ export function Navbar({ onOpenBooking, onOpenManageBookings, activeBookingCount
 {/* Brand Logo */}
 <button
   onClick={() => scrollToSection('home')}
+  className="flex items-center"
   id="nav-logo"
 >
   <img
-    src="/mr-mahi-salon/logo.png"
-    alt="Mr. Mahi Unisex Salon"
-    className="h-12 w-auto object-contain"
-  />
+  src={`${import.meta.env.BASE_URL}logo.png`}
+  alt="Mr. Mahi Unisex Salon"
+  className="h-30 w-40"
+  style={{ mixBlendMode: 'screen', filter: 'brightness(1.2)' }}
+/>
 </button>
 
         {/* Desktop Menu */}

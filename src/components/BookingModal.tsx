@@ -211,7 +211,7 @@ export function BookingModal({ isOpen, onClose, preselectedServiceId, onBookingS
           
           <div>
             <img
-                src="/mr-mahi-salon/logo.png"
+                src="./logo.png"
                 alt="Mr. Mahi Salon"
                 className="h-10 w-auto object-contain mb-1"
             />

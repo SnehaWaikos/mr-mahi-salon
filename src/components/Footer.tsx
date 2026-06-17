@@ -45,10 +45,11 @@ export function Footer() {
           {/* Logo Column */}
           <div className="flex flex-col space-y-6" id="footer-brand-col">
             <img
-                 src="/mr-mahi-salon/logo.png"
-                 alt="Mr. Mahi Unisex Salon"
-                className="h-20 w-auto object-contain"
-           />
+  src={`${import.meta.env.BASE_URL}logo.png`}
+  alt="Mr. Mahi Unisex Salon"
+  className="h-30 w-40"
+  style={{ mixBlendMode: 'screen' }}
+/>
             <p className="text-[#cfc4c5]/60 text-xs md:text-[13px] leading-relaxed max-w-[280px]">
               A premium unisex salon in the heart of Pune. We believe great grooming is for everyone — come in and experience the difference.
             </p>
