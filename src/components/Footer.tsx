@@ -44,9 +44,11 @@ export function Footer() {
           
           {/* Logo Column */}
           <div className="flex flex-col space-y-6" id="footer-brand-col">
-            <h3 className="font-[Playfair_Display] text-white text-2xl font-black tracking-widest text-[#DC2626]">
-              MR. MAHI
-            </h3>
+            <img
+                 src="/mr-mahi-salon/logo.png"
+                 alt="Mr. Mahi Unisex Salon"
+                className="h-20 w-auto object-contain"
+           />
             <p className="text-[#cfc4c5]/60 text-xs md:text-[13px] leading-relaxed max-w-[280px]">
               A premium unisex salon in the heart of Pune. We believe great grooming is for everyone — come in and experience the difference.
             </p>

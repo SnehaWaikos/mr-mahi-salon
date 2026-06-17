@@ -68,13 +68,18 @@ export function Navbar({ onOpenBooking, onOpenManageBookings, activeBookingCount
     >
       <div className="max-w-[1240px] mx-auto px-6 md:px-10 flex items-center justify-between">
         {/* Brand Logo */}
-        <button
-          onClick={() => scrollToSection('home')}
-          className="text-white font-[Playfair_Display] text-xl md:text-2xl font-bold tracking-widest hover:text-[#DC2626] transition-colors"
-          id="nav-logo"
-        >
-          MR. MAHI
-        </button>
+        {/* Brand Logo */}
+{/* Brand Logo */}
+<button
+  onClick={() => scrollToSection('home')}
+  id="nav-logo"
+>
+  <img
+    src="/mr-mahi-salon/logo.png"
+    alt="Mr. Mahi Unisex Salon"
+    className="h-12 w-auto object-contain"
+  />
+</button>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8 font-[Montserrat] text-[13px] font-medium tracking-widest text-[#cfc4c5]">

@@ -210,9 +210,11 @@ export function BookingModal({ isOpen, onClose, preselectedServiceId, onBookingS
         <div className="w-full md:w-5/12 bg-black md:border-r border-[#1C1F1F] p-6 md:p-8 flex flex-col justify-between" id="booking-left-sidebar">
           
           <div>
-            <span className="text-[#D4AF37] font-[Montserrat] text-[10px] tracking-widest font-bold uppercase block mb-1">
-              MR. MAHI SALON
-            </span>
+            <img
+                src="/mr-mahi-salon/logo.png"
+                alt="Mr. Mahi Salon"
+                className="h-10 w-auto object-contain mb-1"
+            />
             <h2 className="text-white font-[Playfair_Display] text-xl md:text-2xl font-bold mb-6">
               Your Booking
             </h2>
